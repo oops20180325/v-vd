@@ -1,0 +1,33 @@
+.vdbase{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom:0;
+  right:0;
+  z-index: 900;
+  background-color: rgba(89, 86, 86, 0.392);
+}
+.vdhid{
+  display: none;
+  
+}
+.vdshow{
+  display: inline-block;
+  
+}
+.vdvideo{
+  position: absolute;
+  transition: all 0.5s ease-in-out 0s;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 30%;
+}
+.h0{
+  opacity: 0;
+  height: 30%;
+}
+.h4{
+  opacity: 1;
+  height: 40%;
+}

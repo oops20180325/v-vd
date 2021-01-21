@@ -1,7 +1,23 @@
 {
   "name": "vue-vd",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "description": "vue img viewer",
+  "author": {
+    "name": "oops",
+    "email": "554121780@qq.com"
+  },
+  "main": "build/vd.js",
+  "private": false,
+  "keywords": [
+    "vue",
+    "video",
+    "viewer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oops20180325/v-vd"
+  },
+  "homepage": "https://github.com/oops20180325",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

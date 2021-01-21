@@ -1,5 +1,19 @@
 # vue-vd
 
+## how to import
+```
+import vd from 'vue-vd'
+import 'vue-vd/build/vd.css'
+Vue.use(vd,"otherOP");
+```
+## how to use
+
+```
+element attribute src is the video source
+eg:
+<span v-vd src='https://www.w3school.com.cn/i/movie.ogg'> look </span>
+```
+
 ## Project setup
 ```
 yarn install
