@@ -14,7 +14,12 @@ eg:
 <span v-vd src='https://www.w3school.com.cn/i/movie.ogg'> look </span>
 ```
 
+## demo
+
+[点击访问demo](https://oops20180325.github.io/v-vd/)
+
 ## Project setup
+
 ```
 yarn install
 ```

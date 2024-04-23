@@ -1,8 +1,11 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <span v-vd src='https://www.w3school.com.cn/i/movie.ogg'> look </span>
+    <img alt="Vue logo" src="./assets/logo.png" width="100">
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <p>点击下发播放视频</p>
+    <div style="text-align: center; cursor: pointer;">
+      <span v-vd src='https://www.w3school.com.cn/i/video/shanghai.mp4'> 播放 ▶ </span>
+    </div>
   </div>
 </template>
 

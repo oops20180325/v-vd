@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/oops20180325",
   "scripts": {
+    "demo":"vue-cli-service build --dest ./docs",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
