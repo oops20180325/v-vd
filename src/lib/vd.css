@@ -6,14 +6,16 @@
   right:0;
   z-index: 900;
   background-color: rgba(89, 86, 86, 0.392);
+  transition: all 0.5s ease-in-out 0s;
+}
+.vdnone{
+  display: none;
 }
 .vdhid{
-  display: none;
-  
+  background-color: transparent;
 }
 .vdshow{
   display: inline-block;
-  
 }
 .vdvideo{
   position: absolute;

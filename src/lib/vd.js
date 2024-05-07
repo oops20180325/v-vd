@@ -9,7 +9,7 @@ export default {
         // Vue.component
        var vdbox = document.createElement("div");
        var video =  document.createElement('video');
-       vdbox.className = "vdbase vdhid";
+       vdbox.className = "vdbase vdnone";
        video.className="vdvideo ";
        video.controls=true;
        vdbox.appendChild(video);
@@ -17,8 +17,11 @@ export default {
        vdbox.addEventListener("click",e => {
            video.className="vdvideo h0";
            setTimeout(()=>{
-               vdbox.className = "vdbase vdhid";
-           },400)
+                vdbox.className = "vdbase vdhid";
+                setTimeout(()=>{
+                    vdbox.className = "vdbase vdnone";  
+                },500)
+           },500)
            video.pause();
            video.src="";
        })
